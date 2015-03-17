@@ -551,7 +551,7 @@ the batch dimension, and thus keep its size fixed. This is necessary when
 dealing with batch sizes of one. When `false`, it forces the 
 entire input (including the first dimension) to be reshaped to the 
 input size. Default `batchMode=nil`, which means that the module 
-considers inputs with more elements than the produce of provided sizes, 
+considers inputs with more elements than the product of the provided sizes, 
 i.e. `dimension1xdimension2x...`, to be batches. 
 
 Example:
